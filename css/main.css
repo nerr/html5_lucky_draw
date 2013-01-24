@@ -18,17 +18,18 @@ footer a{
 }
 
 .hero-unit {
-  padding: 40px;
-  margin-bottom: 30px;
-  font-size: 30px;
-  font-weight: 200;
-  line-height: 30px;
-  color: inherit;
-  background-color: #ffff00;
-  opacity:0.6;
-  -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+	height: 600px;
+	padding: 40px;
+	margin-bottom: 30px;
+	font-size: 36px;
+	font-weight: 200;
+	line-height: 30px;
+	color: inherit;
+	background-color: #ffff00;
+	opacity:0.6;
+	-webkit-border-radius: 6px;
+		-moz-border-radius: 6px;
+			border-radius: 6px;
 }
 
 .hero-unit h1 {
@@ -40,5 +41,17 @@ footer a{
 }
 
 .hero-unit li {
-  line-height: 60px;
+	list-style-type: none;
+	list-style-position: inside;
+
+	width: 25%;
+	float:left;
+
+	text-align: center;
+	line-height: 60px;
+}
+
+#inputnum {
+	font-size: 28px;
+	color: #ffffff;
 }
